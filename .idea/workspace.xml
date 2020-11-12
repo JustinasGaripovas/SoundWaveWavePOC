@@ -17,6 +17,12 @@
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1jsVhhAcdHh4bXEkLoUn3PClJ2X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects/symfony/SoundWaves" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +56,7 @@
       <updated>1604592906781</updated>
       <workItem from="1604592908034" duration="12070000" />
       <workItem from="1604619405031" duration="298000" />
+      <workItem from="1605198342804" duration="8984000" />
     </task>
     <servers />
   </component>
@@ -57,14 +64,20 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="180" y="322" width="604" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604608248557">
-      <screen x="0" y="27" width="1920" height="988" />
+    <state x="360" y="322" width="604" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605200477957">
+      <screen x="0" y="27" width="3840" height="988" />
     </state>
     <state x="180" y="322" width="604" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.988@0.27.1920.988" timestamp="1604608248557" />
-    <state x="743" y="278" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604619701744">
-      <screen x="0" y="27" width="1920" height="988" />
+    <state x="360" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.27.3840.988@0.27.3840.988" timestamp="1605200477957" />
+    <state x="2032" y="299" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605199130991">
+      <screen x="0" y="27" width="3840" height="988" />
     </state>
     <state x="743" y="278" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1604619701744" />
+    <state x="2032" y="299" key="FileChooserDialogImpl/0.27.3840.988@0.27.3840.988" timestamp="1605199130991" />
+    <state x="2659" y="279" width="432" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1605205849838">
+      <screen x="0" y="27" width="3840" height="988" />
+    </state>
+    <state x="2659" y="279" width="432" height="455" key="refactoring.ChangeSignatureDialog/0.27.3840.988@0.27.3840.988" timestamp="1605205849838" />
     <state x="917" y="259" key="run.anything.popup" timestamp="1604607173566">
       <screen x="0" y="27" width="1920" height="988" />
     </state>

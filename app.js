@@ -29,14 +29,14 @@ const normalizeData = filteredData => {
     return filteredData.map(n => n * multiplier);
 }
 
-const getPoints = (normalizeData, canvasHeight) => {
+const getPoints = (normalizeData, canvasY) => {
     let points = [];
     let xStep = 0;
 
     for (let i = 0; i < normalizeData.length; i++) {
         points.push(
             {
-                y: -1*(normalizeData[i] * canvasHeight) + 150,
+                y: -1*(normalizeData[i] * canvasY) + canvasY*1.8,
                 x: xStep += 10
             }
         )
@@ -45,6 +45,7 @@ const getPoints = (normalizeData, canvasHeight) => {
 }
 
 function draw(ctx, points) {
+
     ctx.beginPath();
     ctx.moveTo(points[0].x, points[0].y);
 
@@ -88,11 +89,12 @@ function draw(ctx, points) {
 const drawSeq = normalizeData => {
     let canvas = document.querySelector("canvas");
     let ctx = canvas.getContext("2d");
-    let canvasHeight = 150;
+    let centerX = canvas.width / 2;
+    let centerY = canvas.height / 2;
 
-    ctx.moveTo(0, canvasHeight/2);
+    ctx.moveTo(0, centerY);
 
-    const points = getPoints(normalizeData, canvasHeight);
+    const points = getPoints(normalizeData, centerY);
 
     draw(ctx, points);
 }
@@ -101,5 +103,5 @@ function gradient(a, b) {
     return (b.y-a.y)/(b.x-a.x);
 }
 
-const audioUrl = 'http://localhost/SoundWavesJSTest/line.mp3';
+const audioUrl = 'http://localhost/SoundWavesJSTest/vienas.mp3';
 drawAudio(audioUrl);
